@@ -33,13 +33,34 @@ menu.addEventListener("click", function(e){
     }
 })
 
-let bs = document.querySelectorAll(".header__menu_list_type")
+// let bs = document.querySelectorAll(".header__menu_list_type")
 
-bs.forEach(function(e){
-    e.addEventListener("click", function(el){
-        bs.forEach(function(e){
-            e.classList.remove("header__menu_list_type_active")
+// bs.forEach(function(e){
+//     e.addEventListener("click", function(el){
+//         bs.forEach(function(e){
+//             e.classList.remove("header__menu_list_type_active")
+//         })
+//         e.classList.add("header__menu_list_type_active")
+//     })
+// })
+
+
+window.addEventListener("scroll", function(){
+    let scrollDistance = window.scrollY
+    console.log(scrollDistance)
+
+let sect = document.querySelectorAll(".sect")
+let nav = document.querySelectorAll(".header__menu_list_type")
+
+sect.forEach(function(el, i){
+    if(el.offsetTop-119 <= scrollDistance) {
+        nav.forEach(function(e){
+            if (e.classList.contains("header__menu_list_type_active")) {
+                e.classList.remove("header__menu_list_type_active")
+            }
         })
-        e.classList.add("header__menu_list_type_active")
-    })
+        document.querySelectorAll('.header__menu_list li')[i].classList.add("header__menu_list_type_active")
+    }
+})
+
 })
