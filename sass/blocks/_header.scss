@@ -1,0 +1,51 @@
+.header {
+    min-height: 119px;
+    background: #191919;
+    top: -100%;
+    &_active {
+        position: fixed;
+        width: 100%;
+        min-height: 119px;
+        left: 0;
+        top: 0;
+        background: #000;
+        transition: all .5s;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 46px;
+    }
+    &__burger {
+        display: none;
+        &_list {
+            display: none;
+        }
+    }
+    &__menu {
+        &_list {
+            display: flex;
+            &_type {
+                margin: 0 20px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &_active {
+                    a {
+                        color: #118DA8 !important;
+                    }
+                }
+                a {
+                    font-family: 'DM Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 27px;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                    outline: none;
+                }
+            }
+        }
+    }
+}

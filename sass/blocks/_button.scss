@@ -1,0 +1,32 @@
+.button {
+    background: #118DA8;
+    border-radius: 6px;
+    border: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+    &--episodes {
+        width: 178px;
+        height: 51px;
+    }
+    &--episodesItem {
+        width: 201px;
+        height: 51px;
+        background: #118DA8;
+        border-radius: 6px;
+        border: none;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    &--sub {
+        width: 87px;
+        height: 47px;
+    }
+}

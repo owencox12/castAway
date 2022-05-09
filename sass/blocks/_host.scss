@@ -1,0 +1,40 @@
+.host {
+    padding-top: 260px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_first {
+            padding-top: 130px;
+        }
+        &_title {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #118DA8;
+            margin-top: 20px;
+        }
+        &_name {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 65px;
+            line-height: 79px;
+            letter-spacing: 2.88px;
+            color: #FFFFFF;
+        }
+        &_descr {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            color: rgba(255, 255, 255, 0.7);
+            width: 556px;
+            margin-top: 30px;
+        }
+    }
+}

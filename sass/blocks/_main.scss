@@ -1,0 +1,43 @@
+.main {
+    background: #191919;
+    min-height: 5500px;
+    padding-top: 30px;
+    &__wrapper {
+        display: flex;
+    }
+    &__item {
+        &_second {
+            padding-top: 334px;
+            margin-left: 60px;
+        }
+        &_title {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 70px;
+            line-height: 88px;
+            letter-spacing: 3.2px;
+            color: #FFFFFF;
+        }
+        &_socials {
+            display: flex;
+            &_social {
+                margin: 0 7px;
+                cursor: pointer;
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+            &_title {
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 24px;
+                color: #FFFFFF;
+                margin-top: 90px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

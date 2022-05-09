@@ -1,0 +1,76 @@
+.episodes {
+    padding-top: 93px;
+    &__titles {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_title {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 79px;
+            letter-spacing: 2.88px;
+            color: #FFFFFF;
+        }
+    }
+    &__wrapper {
+        margin-top: 64px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        background: #000;
+        border-radius: 31px;
+        padding: 40px 111px 40px 40px;
+        margin: 40px 0;
+        &_right {
+            margin-left: 53px;
+            &_tag {
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                color: #FFFFFF;
+                padding: 0 20px;
+                background: gray;
+                border-radius: 6px;
+                display: inline-block
+            }
+            &_title {
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 27px;
+                color: #118DA8;
+                margin-top: 48px;
+            }
+            &_subtitle {
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 64px;
+                line-height: 70px;
+                letter-spacing: 2.56px;
+                color: #FFFFFF;
+                width: 701px;
+                margin-top: 18px;
+            }
+            &_descr {
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 33px;
+                color: rgba(255, 255, 255, 0.7);
+                width: 757px;
+                margin-top: 28px;
+            }
+            &_button {
+                margin-top: 18px;
+            }
+        }
+    }
+}

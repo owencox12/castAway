@@ -1,0 +1,17 @@
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+body.lock {
+    overflow: hidden
+}
+
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/episodes';
+@import 'blocks/button';
+@import 'blocks/host';
+@import 'blocks/sub';
+@import 'blocks/rating';
+@import 'blocks/footer';
+@import 'blocks/media';
