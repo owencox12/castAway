@@ -33,16 +33,6 @@ menu.addEventListener("click", function(e){
     }
 })
 
-// let bs = document.querySelectorAll(".header__menu_list_type")
-
-// bs.forEach(function(e){
-//     e.addEventListener("click", function(el){
-//         bs.forEach(function(e){
-//             e.classList.remove("header__menu_list_type_active")
-//         })
-//         e.classList.add("header__menu_list_type_active")
-//     })
-// })
 
 
 window.addEventListener("scroll", function(){
